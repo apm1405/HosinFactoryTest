@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<include 
+	    layout="@layout/text_notify"
+	    android:id="@+id/battery_status"
+	    android:layout_alignParentTop="true"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    />
+    <TextView
+        android:layout_below="@id/battery_status"
+        android:id="@+id/power_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp" />
+    <!--
+        TextView
+	    android:id="@+id/current_electric"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+            android:textColor="#0000ff"
+	    android:textSize="20sp"/
+    -->
+
+    <TextView
+        android:layout_below="@id/power_info"
+        android:id="@+id/uptime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp" />
+	<include
+	    android:layout_alignParentBottom="true"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="bottom" 
+	    layout="@layout/buttons"/>
+   <!--  <Button
+        android:id="@+id/power_ok"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="@string/test_ok" />
+
+    <Button
+        android:id="@+id/power_false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="@string/test_false" /> -->
+
+</RelativeLayout>

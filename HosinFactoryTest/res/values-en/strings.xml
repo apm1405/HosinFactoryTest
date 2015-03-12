@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Factory test</string>
+<!--   Version  -->
+ 	<string name="report_test_radio">FM test：</string>
+    <string name="report_test_bluetooth">Bluetooth test：</string>
+    <string name="report_test_wifi">WIFI test：</string>
+    <string name="report_test_gps">GPS test：</string>
+    <string name="but_all_test">Full test</string>
+<!--   Version  -->
+    <string name="report_pass_title">Pass</string>
+    <string name="report_fail_title">Fail</string>
+    <string name="report_nottested_title">Not tested</string>
+ 	<string name="important_device">Important device</string>
+ 	<string name="mmi_auto_test">AUTO TEST</string>
+    <string name="mmi_hardware_test">HARDWEAR TEST</string>
+         <string name="please_charge">please charge</string>
+    <string name="mmi_restore">RESET</string>
+    <string name="report_title">TEST REPORT</string>
+    <string name="versioninfo">Version Test</string>
+    <string name="modelNumber">Model:</string>
+    <string name="CPU_ABI">CPU:</string>
+    <string name="user_version">Internal Version:</string>
+    <string name="android_version">Android Version:</string>
+    <string name="version">SW Version:</string>
+    <string name="baseband_version">baseband_version:</string>
+    <string name="kernel_version">kernel_version:</string>
+    <string name="device_info_default">Unknown</string>
+<!--   LCD  -->
+    <string name="but_test_lcd">LCD color test</string>
+    <string name="but_test_sd">SD Card test</string>
+    <string name="but_test_frontcamera">Front camera test</string>
+    <string name="but_test_backcamera">Back camera test</string>
+    <string name="but_test_camera">Camera</string>
+    <string name="but_test_open_camera">open camera</string>
+    <string name="but_test_wifi">WIFI test</string>
+    <string name="but_test_bluetooth">Bluetooth test</string>
+    <string name="but_test_vibration">Vibration test</string>
+    <string name="but_test_key">Key test</string>
+    <string name="but_test_key_vibration">Keys and Vibration</string>
+    <string name="but_test_flashlight">Torch test</string>
+    <string name="but_test_memory">Memory</string>
+    <string name="compass">Magnetic sensor test</string>
+    <string name="but_test_lpsensor">L/P-Sensor</string>
+    <string name="but_test_gravity">Accelerate test</string>
+    <string name="but_test_power">Battary test</string>
+    <string name="but_test_sim">SIM Card test</string>
+    <string name="but_test_tp">CTP test</string>
+    <string name="but_test_receiver">1KHz Earpiece test</string>
+    <string name="but_test_loudspeaker">Speaker test</string>
+    <string name="but_test_tel">Call</string>
+    <string name="but_test_gps">GPS test</string>
+    <string name="but_test_earphone">Handset</string>
+    <string name="test_backgroundlight">Backlight test</string>
+    <string name="but_test_radio">FM test</string>
+    <string name="but_test_radio_earphone">FM/Earphone</string>
+    <string name="but_test_loopback_micspk">main mic test</string>
+    <string name="test_result">Test Report：</string>
+     <string name="time">Time：</string>
+    <string name="test_back">Back</string>
+    <string name="but_return">Return</string>
+    <string name="but_retest">retest</string>
+    <string name="test_again">retest</string>
+    <string name="but_next">Next Test</string>
+    <string name="but_exit">Exit</string>
+    <string name="take_call">Call</string>
+    <string name="turn_on">"Turn on"</string>
+    <string name="turn_off">"Turn off"</string>
+    <string name="wiredheadsetonstopmusic">Handset inserted , stop the music by press the headset！</string>
+    <string name="wiredheadsetonstartmusic">Handset inserted , play the music by press the headset！</string>
+    <string name="insert_wiredhead">Insert Handset！</string>
+    <string name="stong_light">High Light</string>
+    <string name="weak_light">Low Light</string>
+    <string name="sim1">SIM1：</string>
+    <string name="sim2">SIM2：</string>
+    <string name="sim">SIM：</string>
+    <string name="unknown">unknown</string>
+    <string name="sim_yd">（China Mobile）</string>
+    <string name="sim_lt">（China Unicom）</string>
+    <string name="sim_dx">（China Telecom）</string>
+    <string name="sim_good">OK</string>
+    <string name="sim_state_unknown">SIM card locked or unknow</string>
+    <string name="sim_not_found">No SIM card detected</string>
+    <string name="sim_signal_strength">\txinahaoqiangdu</string>
+    <string name="gravity_text">Keep stand on，lay，watch the direction of gravity</string>
+    <string name="tp_text">Click the circle, back if fail\n Until the circle disappera, test pass, otherwise test fail </string>
+    <string name="take_picture">Capture</string>
+    <string name="take_picture_again">Re-Capture</string>
+    <string name="total_memory">Total：</string>
+    <string name="avail_memory">Available：</string>
+    <string name="sd_total_memory">Total：</string>
+    <string name="sd_avail_memory">Available：</string>
+    <string name="sd_inserted">SD card inserted</string>
+    <string name="sd_inserted_phone_storage">Phone storage tested</string>
+    <string name="sd_inserted_external_storage">External storage tested</string>
+    <string name="sd_not_found">SD card not found</string>
+    <string name="power_up_time">start from power on：</string>
+    <string name="power_charge_state">Charge：</string>
+    <string name="power_current_electric">BAT current：</string>
+    <string name="power_total_electric">Total BAT：</string>
+    <string name="power_state">BAT State：</string>
+    <string name="power_current_voltage">BAT Volt：</string>
+    <string name="power_current_temp">BAT Temp：</string>
+    <string name="power_battery_current_electric">Current Electric：</string>
+    <string name="power_current_temperature">BAT Temp：</string>
+    <string name="power_degree">℃</string>
+    <string name="power_technology">BAT Type：</string>
+    <string name="power_charging">Charging</string>
+    <string name="power_discharging">Discharging</string>
+    <string name="power_full">Charged</string>
+    <string name="power_not_charging">No Charge</string>
+    <string name="battery_heath_dead">Battery dead</string>
+    <string name="battery_heath_good">Battery good</string>
+    <string name="battery_heath_over_voltage">BAT VOLT too high</string>
+    <string name="battery_heath_over_heat">BAT over temp</string>
+    <string name="battery_heath_unknown">unknown statu</string>
+    <string name="battery_heath_failure">unknown mistake</string>
+    <string name="power_ac">(AC)</string>
+    <string name="power_usb">(USB)</string>
+    
+    <string name="device_mount">device count：</string>
+    <string name="search_finish">finished</string>
+    
+    <string name="bluetooth_opened">Initialized BT,please wait... </string>
+    <string name="bluetooth_searching">searching...</string>
+    <string name="bluetooth_opening"> Initializing </string>
+    <string name="bluetooth_openfail">BT Initializing fail！</string>
+    <string name="bluetooth_search_result">search result：</string>
+    <string name="bluetooth_name">BT：</string>
+    <string name="bluetooth_mac">MAC：</string>
+    <string name="bluetooth_foundNone">NO dev found</string>
+    
+    <string name="wifi_opening">WIFI initializing...</string>
+    <string name="wifi_opened">WIFI Start。</string>
+    <string name="wifi_open_wifi">WIFI is off，WIFI initializing...</string>
+    <string name="wifi_search_result">Scanned：</string>
+    <string name="wifi_searching">Scanning...</string>
+    <string name="mic_play">Play</string>
+    <string name="mic_begin_record">Record</string>
+    <string name="mic_insert_sd">Insert SD </string>
+    <string name="gps_info">longitude：%1$s\nlatitude：%2$s\n</string>
+    <string name="gps_closed">GPS is off,turn on GPS"</string>
+    <string name="gps_opened">GPS is on</string>
+      <string name="satellite_info">satellite count：</string>
+    <string name="satellite">satellite：</string>
+    <string name="snr">snr：</string>
+    <string name="gps_location">location：</string>
+    <string name="gps_latitude">latitude：</string>
+    <string name="gps_longitude">longitude：</string>
+    <string name="gps_speed">speed：</string>
+    <string name="gps_altitude">altitude：</string>
+    <string name="gps_bearing">direction：</string>
+    <string name="gps_unknown">Location unknown</string>
+    <string name="radio_search">click and start FM Test</string>
+    <string name="radio_insert_wire">please insert earphone as the antenna</string>
+    <string name="test_ok">PASS</string>
+    <string name="test_false">Fail</string>
+    <string name="test_no">Not Done Test</string>
+    <string name="headset_keycode">keycode:</string>
+    <!--
+          <string name="calbrateinfo">Calibration info</string>
+    <string name="exit">Exit</string> 
+    -->
+<!--   Common Res  -->	
+  <string name="Headset_presskey">press key on headphone</string>
+ 	  <string name="reset">Reset</string>
+	<string name="fm_test_notify">if you can not hear ,please insert your headset</string>
+ 	<string name="try_plug_headset">if you can not hear ,please insert your headset</string>
+ 	<string name="notice_to_judge">test report</string>
+    <string name="success">PASS</string>
+    <string name="failure">Fail</string>
+    <string name="retest">Retest</string>
+<!--   Button Test  -->
+    <string name="home_button">Home</string>
+    <string name="menu_button">Menu</string>
+    <string name="back_button">Back</string>
+    <string name="volume_up_button">Volume up</string>
+    <string name="volume_down_button">Volume down</string>
+    <string name="headset_button">Headset</string>
+    <string name="button_test_introduction">Keys test：including 6 keys to test, when press the keys, there will be vibration,If the key is work, the content will turn blue. Until all the contents turn to blue, and along with the vibration, test pass, otherwise, test fail.</string>
+<!--   LSensor And PSensor Test  -->
+    <string name="ls_intro">1.L-sensor test：Shade the L-sensor hole，the picture will turn to white</string>
+    <string name="ps_intro">2.P-sensor test：Shade the P-sensor hole，the picture will turn to white</string>
+    <string name="ls_text">L-Sensor：</string>
+    <string name="ps_text">P-Sensor：</string>
+    <string name="but_test_distance">proximity Sensor test</string>
+    <string name="but_test_light">light Sensor test</string>
+    <string name="quantitative_value">Value：</string>
+    <string name="distance_state_close_to">Status：Close</string>
+    <string name="distance_state_far_away">Status：Far</string>
+    <string name="distance_text">Please watch the changes when put the hand on and far away</string>
+    <string name="light_text">check the value changes in high light and dark place</string>
+<!--   Telephone Receiver Test  -->
+    <string name="receiver_intro">Receiver test：Play 1000Hz Audio，if Can hear, then pass, if not, fail</string>
+    <string name="receiver_notify">The Earpiece is given 500Hz tone?</string>
+    <string name="speaker_notify">The Speaker is given 1KHz tone?</string>
+    <string name="volume">volume：%1$d</string>
+    
+    <string name="gravity_test_introduction">To put up the phone, and then turning the phone toward the four directions in the vertical plane</string>
+<!--   Loopback Test  -->
+    <string name="loopback_intro">please check the voice heared from reciver according by the mic</string>
+<!--   HeadSet Loopback Test  -->
+    <string name="headset_loopback_close">Earphone loopback test：earphone loopback closed，please turn on，and check the voice heared from reciver according by the mic.</string>
+    <string name="headset_loopback_open">Earphone loopback test：earphone loopback open，please turn off the loopback test.</string>
+    <string name="headset_loopback_insert_wire">Insert earphone to test the loopback!</string>
+<!--   Reset Phone  -->
+ <!-- HeadSet  Test -->
+	 <string name="headset_test_notify">press key on headphone</string>
+	 <string name="headset_test">Headset test</string>
+<!--   Video Test  --> <string name="but_reset">Reset</string>
+    <string name="but_test_video">Video</string>
+    <string name="text_play">Play</string>
+    <string name="text_pause">Pause</string>
+	<string name="power_button">power</string>
+	<string name="magnetic_sensor_introduction">cell phone screen for the sky, holding a cell phone at your side, draw the shape of the 8-word, the painting twice, and then the phone screen to face draw eight characters, drawn twice</string>
+</resources>

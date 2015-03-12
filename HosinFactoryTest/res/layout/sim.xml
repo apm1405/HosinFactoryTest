@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<include 
+	    android:layout_alignParentTop="true"
+	    layout="@layout/text_notify"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/layout_notify"/>
+
+        <TextView
+            android:layout_below="@id/layout_notify"
+            android:id="@+id/sim1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TextView>
+
+
+        <TextView
+            android:layout_below="@id/sim1"
+            android:id="@+id/sim2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TextView>
+	<include 
+	   android:layout_alignParentBottom="true"
+	    layout="@layout/buttons"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"/>
+   <!--  <Button
+        android:id="@+id/sim_ok"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="@string/test_ok" >
+    </Button>
+
+    <Button
+        android:id="@+id/sim_false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="@string/test_false" >
+    </Button> -->
+
+</RelativeLayout>

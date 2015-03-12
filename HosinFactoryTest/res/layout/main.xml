@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ <!--    <Button
+        android:textSize="15dip"
+        android:id="@+id/all_test"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:text="@string/but_all_test"
+        /> -->
+   <GridView 
+       android:gravity="center_vertical" 
+       android:id="@+id/factory_test_gridview" 
+       android:layout_width="fill_parent" 
+       android:layout_height="0dip"
+       android:layout_weight="8" 
+       android:horizontalSpacing="1.0dip" 
+       android:verticalSpacing="1.0dip" 
+       android:stretchMode="columnWidth" 
+       android:columnWidth="90.0dip"
+        android:numColumns="auto_fit"
+         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <Button
+              android:textSize="15dip"
+            android:id="@+id/reset_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/but_reset"
+             />
+		  <Button
+              android:textSize="15dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="invisible"
+             />
+        <Button
+              android:textSize="15dip"
+            android:id="@+id/exit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/but_exit"
+             />
+    </LinearLayout>
+
+</LinearLayout>

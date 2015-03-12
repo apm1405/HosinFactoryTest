@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    	<include 
+    	     android:id="@+id/tv1"
+    	     layout="@layout/text_notify"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_alignParentTop="true"/>
+    	
+    	<TextView
+    	    android:id="@+id/tv2"
+    	    android:layout_below="@+id/tv1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/magnetic_sensor_introduction"
+        />
+    	
+    	<TextView
+    	    android:id="@+id/xyz"
+    	    android:layout_below="@+id/tv2"
+        android:layout_width="fill_parent"
+        android:layout_height="80dip"
+        
+        />
+
+    <com.android.factorytest.CompassView
+        android:id="@+id/compass_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/xyz"
+        />
+
+
+
+	<include 
+	    layout="@layout/buttons"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"/>
+</RelativeLayout>

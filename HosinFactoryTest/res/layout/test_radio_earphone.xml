@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <include
+        layout="@layout/text_notify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"/> 
+        <include 
+            layout="@layout/fm_mmitest_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+    <include 
+        layout="@layout/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        />
+    <!-- <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button 
+            android:id="@+id/set_fm_left_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+       />
+	
+	</LinearLayout>
+    <TextView
+        android:id="@+id/headset_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/headset_loopback_close"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/radio_search"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="@string/radio_search" />
+
+    <Button
+        android:id="@+id/radio_ok"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="@string/test_ok" />
+
+    <Button
+        android:id="@+id/radio_false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="@string/test_false" /> -->
+
+</RelativeLayout>

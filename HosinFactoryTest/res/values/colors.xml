@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <color name="ctp_light_blue">#00C5CD</color>
+       <color name="ctp_yellow">#CCCC33</color> 
+      <color name="sky_blue">#0099FF</color>
+      <color name="gray">#666666</color>
+      <color name="light_blue">#0099CC</color>
+      <color name="yellow">#FFFF00</color>
+      <color name="blue">#FF0000FF</color>
+       <color name="red">#FFFF0000</color>
+</resources>

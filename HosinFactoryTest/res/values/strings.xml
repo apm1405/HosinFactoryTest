@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Factory test</string>
+
+    <!-- Version -->
+    <string name="report_test_radio">FM测试：</string>
+    <string name="report_test_bluetooth">蓝牙测试：</string>
+    <string name="report_test_wifi">WIFI测试：</string>
+    <string name="report_test_gps">GPS测试：</string>
+    
+	 <string name="report_pass_title">测试通过</string>
+    <string name="report_fail_title">测试失败</string>
+    <string name="report_nottested_title">尚未测试</string>
+    <string name="important_device">重要器件</string>
+    <string name="but_all_test">完整测试</string>
+	 <string name="mmi_test">MMI测试</string>
+    <string name="mmi_auto_test">自动测试</string>
+    <string name="mmi_hardware_test">硬件测试</string>
+    	     <string name="please_charge">请插入充电器</string>
+    <string name="report_title">测试报告</string>
+    <string name="mmi_restore">恢复出厂设置</string>
+    <!-- Version -->
+    <string name="versioninfo">软件版本检测</string>
+    <string name="modelNumber">型号: </string>
+    <string name="CPU_ABI">CPU核心: </string>
+    <string name="user_version">自定义版本: </string>
+    <string name="android_version">Android版本: </string>
+    <string name="version">版本号: </string>
+    <string name="baseband_version">基带版本: </string>
+    <string name="kernel_version">内核版本: </string>
+    <string name="device_info_default">未知</string>
+
+    <!-- LCD -->
+    <string name="but_test_lcd">屏幕颜色测试</string>
+    <string name="but_test_sd">SD卡测试</string>
+    <string name="but_test_frontcamera">前摄像头测试</string>
+    <string name="but_test_backcamera">后摄像头测试</string>
+    <string name="but_test_camera">相机</string>
+    <string name="but_test_open_camera">打开相机</string>
+    <string name="but_test_wifi">WIFI测试</string>
+    <string name="but_test_bluetooth">蓝牙测试</string>
+    <string name="but_test_vibration">振动测试</string>
+    <string name="but_test_key">按键测试</string>
+    <string name="but_test_key_vibration">按键/振动</string>
+    <string name="but_test_flashlight">手电筒测试</string>
+    <string name="but_test_memory">内存</string>
+    <string name="compass">地磁传感器测试</string>
+    <string name="but_test_gravity">加速传感器测试</string>
+    <string name="but_test_power">充电测试</string>
+    <string name="but_test_sim">SIM卡测试</string>
+    <string name="but_test_tp">CTP划线测试</string>
+    <string name="but_test_receiver">1KHz听筒测试</string>
+    <string name="but_test_loudspeaker">扬声器测试</string>
+    <string name="but_test_tel">电话</string>
+    <string name="but_test_gps">GPS测试</string>
+    <string name="but_test_earphone">耳机</string>
+    <string name="test_backgroundlight">背光测试</string>
+    <string name="but_test_radio">FM测试</string>
+    <string name="but_test_radio_earphone">收音机/耳机</string>
+    <string name="headset_test">耳机测试</string>
+    <string name="but_test_loopback_micspk">主麦克测试</string>
+    <string name="test_result">测试结果：</string>
+    <string name="time">时间：</string>
+    <string name="test_back">返回</string>
+    <string name="but_return">返回菜单</string>
+    <string name="but_retest">重测本项</string>
+    <string name="test_again">重新测试</string>
+    <string name="but_next">下一项测试</string>
+    <string name="but_exit">退出</string>
+    <string name="take_call">拨号</string>
+    <string name="turn_on">"打开"</string>
+    <string name="turn_off">"关闭"</string>
+    <string name="wiredheadsetonstopmusic">检测到耳机已插入,按耳机键停止音乐！</string>
+    <string name="wiredheadsetonstartmusic">检测到耳机已插入,按耳机键播放音乐！</string>
+    <string name="insert_wiredhead">请插入耳机测试！</string>
+    <string name="stong_light">强背光</string>
+    <string name="weak_light">弱背光</string>
+    <string name="sim1">SIM1：</string>
+    <string name="sim2">SIM2：</string>
+    <string name="sim">SIM：</string>
+    <string name="unknown">未知</string>
+    <string name="sim_yd">（中国移动）</string>
+    <string name="sim_lt">（中国联通）</string>
+    <string name="sim_dx">（中国电信）</string>
+    <string name="sim_good">良好</string>
+    <string name="sim_state_unknown">SIM卡被锁或未知状态</string>
+    <string name="sim_not_found">未发现SIM卡</string>
+    <string name="sim_signal_strength">\txinahaoqiangdu</string>
+    <string name="gravity_text">竖立，平放，测力，观察重力方向</string>
+    <string name="tp_text">请点击圆圈，失败请按返回键\n圆圈消失则成功，不消失则失败</string>
+    <string name="take_picture">拍摄</string>
+    <string name="take_picture_again">重拍</string>
+    <string name="total_memory">总共：</string>
+    <string name="avail_memory">可用：</string>
+    <string name="sd_total_memory">总容量：</string>
+    <string name="sd_avail_memory">剩余容量：</string>
+    <string name="sd_inserted">已检测到存储卡</string>
+    <string name="sd_inserted_phone_storage">已检测到用户存储空间</string>
+    <string name="sd_inserted_external_storage">已检测到外部存储空间</string>
+    <string name="sd_not_found">未发现外部存储卡</string>
+    <string name="power_up_time">自启动时间：</string>
+    <string name="power_charge_state">充电放电状态：</string>
+    <string name="power_current_electric">当前电量：</string>
+    <string name="power_total_electric">电池电量：</string>
+    <string name="power_state">电源状态：</string>
+    <string name="power_current_voltage">当前电压：</string>
+    <string name="power_current_temp">电源温度：</string>
+    <string name="power_battery_current_electric">当前电流：</string>
+    <string name="power_current_temperature">当前温度：</string>
+    <string name="power_degree">℃</string>
+    <string name="power_technology">电源技术：</string>
+    <string name="power_charging">正在充电</string>
+    <string name="power_discharging">正在放电</string>
+    <string name="power_full">已充满电</string>
+    <string name="power_not_charging">未充电</string>
+    <string name="battery_heath_dead">电池没有电</string>
+    <string name="battery_heath_good">状态良好</string>
+    <string name="battery_heath_over_voltage">电池电压过高</string>
+    <string name="battery_heath_over_heat">电池过热</string>
+    <string name="battery_heath_unknown">未知状态</string>
+    <string name="battery_heath_failure">未知错误</string>
+    <string name="power_ac">(AC)</string>
+    <string name="power_usb">(USB)</string>
+    <string name="bluetooth_opened">正在搜索蓝牙设备，请等待...</string>
+    <string name="device_mount">搜索到的设备数：</string>
+    <string name="bluetooth_searching">搜索中...</string>
+    <string name="bluetooth_opening">蓝牙未打开，正在打开蓝牙...</string>
+    <string name="bluetooth_openfail">打开蓝牙失败！</string>
+    <string name="bluetooth_search_result">搜索结果：</string>
+    <string name="search_finish">搜索结束</string>
+    <string name="bluetooth_name">设备名称：</string>
+    <string name="bluetooth_mac">设备地址：</string>
+    <string name="bluetooth_foundNone">未发现设备</string>
+    <string name="wifi_opening">WIFI正在启动中...</string>
+    <string name="wifi_opened">WIFI已打开。</string>
+    <string name="wifi_open_wifi">检测到WIFI未打开，尝试启动WIFI...</string>
+    <string name="wifi_search_result">扫描结果：</string>
+    <string name="wifi_searching">正在扫描...</string>
+    <string name="mic_play">播放</string>
+    <string name="mic_begin_record">开始录音</string>
+    <string name="mic_insert_sd">请插入T卡再试</string>
+    <string name="gps_closed">GPS未打开,请打开GPS"</string>
+    <string name="gps_info">经度：%1$s\n纬度：%2$s\n</string>
+    <string name="satellite_info">卫星个数：</string>
+    <string name="satellite">卫星：</string>
+    <string name="snr">信噪比：</string>
+    <string name="gps_opened">GPS已打开</string>
+    <string name="gps_location">位置信息：</string>
+    <string name="gps_latitude">纬度：</string>
+    <string name="gps_longitude">经度：</string>
+    <string name="gps_speed">速度：</string>
+    <string name="gps_altitude">高度：</string>
+    <string name="gps_bearing">方位：</string>
+    <string name="gps_unknown">未获取位置</string>
+    <string name="radio_search">点击进入收音机测试</string>
+    <string name="radio_insert_wire">请插入耳机作为天线</string>
+    <string name="test_ok">成功</string>
+    <string name="test_false">失败</string>
+    <string name="test_no">未测试</string>
+    <string name="reset">复位</string>
+	<string name="fm_test_notify">如果听不到声音，请插入耳机</string>
+	<string name="gravity_test_introduction">把手机竖起，然后在竖直平面内转动手机朝上下左右四个方向，当转到四个方向时屏幕将出现指向天空的手机图片，当四个方向测完，通过按钮可用</string>
+    <!--
+         <string name="calbrateinfo">校准信息</string>
+    <string name="exit">退出</string>
+    -->
+
+    <!-- Common Res -->
+    
+    <string name="notice_to_judge">请判断测试结果</string>
+    <string name="success">通过</string>
+    <string name="failure">失败</string>
+	 <string name="retest">重测</string>
+    <!-- Button Test -->
+    <string name="home_button">Home键</string>
+    <string name="menu_button">Menu键</string>
+    <string name="back_button">Back键</string>
+    <string name="volume_up_button">加音量键</string>
+    <string name="volume_down_button">减音量键</string>
+    <string name="headset_button">耳机按键</string>
+    <string name="button_test_introduction">按键测试说明：按键测试包含6个测试对象，物理按键按下后有
+        	声音提示， 触屏按键按下后会短促震动，按键若有效果，则相应的视图文字会变蓝。当文字全部变蓝时，
+        	并且有振动为周期振动，说明测试通过，反之测试失败。</string>
+
+    <!-- LSensor And PSensor Test -->
+    <string name="ls_intro">1.光感测试：当用手遮住光感孔后，下面的图片会变成白色</string>
+    <string name="ps_intro">2.距感测试：当用手遮住距感孔后，下面的图片会变成白色</string>
+    <string name="ls_text">光敏传感器：</string>
+    <string name="ps_text">距离传感器：</string>
+    <string name="but_test_distance">距离传感器测试</string>
+    <string name="but_test_light">光线传感器测试</string>
+    <string name="quantitative_value">数值：</string>
+    <string name="distance_state_close_to">状态：贴近</string>
+    <string name="distance_state_far_away">状态：远离</string>
+    <string name="distance_text">请将手放置和离开感应区观看状态变化</string>
+    <string name="light_text">在强光和黑暗地方观察数值变化</string>
+
+    <!-- Telephone Receiver Test -->
+    <string name="receiver_intro">听筒测试说明：播放1000Hz音频，如果测试人员听到即为测试成功，
+        	反之失败</string>
+	<string name="receiver_notify">听筒是否发出1KHz音调？</string>
+	<string name="speaker_notify">扬声器是否发出一千赫兹音调？</string>
+	<string name="volume">音量：%1$d</string>
+    <!-- Loopback Test -->
+    <string name="loopback_intro">请以接听或者打电话的方式操作手机发声，判断
+			听筒是否有之前语音的内容放出</string>
+
+    <!-- HeadSet Loopback Test -->
+    <string name="headset_loopback_close">耳机音频回路测试说明：耳机音频回路关闭，按耳机键打开进行耳机回路测试，请以接听或者打电话的方式操作手机发声，判断
+			听筒是否有之前语音的内容放出。</string>
+    <string name="headset_loopback_open">耳机音频回路测试说明：耳机音频回路已打开，可以按耳机键关闭耳机回路测试。</string>
+    <string name="headset_loopback_insert_wire">请插入耳机进行耳机回路测试!</string>
+	 <!-- HeadSet  Test -->
+	 <string name="headset_test_notify">请按下按键耳机控制开关</string>
+	 <string name="headset_keycode">键值:</string>
+    <!-- Reset Phone -->
+    <string name="but_reset">恢复出厂设置</string>
+
+    <!-- Video Test -->
+    <string name="but_test_video">视频</string>
+    <string name="text_play">播放</string>
+    <string name="text_pause">暂停</string>
+	<string name="power_button">电源</string>
+	<string name="magnetic_sensor_introduction">手机屏幕面向天空，在你的身旁，拿着手机画8字形状，画两次，再把手机的屏幕面对自己画8字，画两次</string>
+	
+</resources>

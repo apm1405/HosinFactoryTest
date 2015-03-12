@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!--   <LinearLayout
+        android:id="@+id/layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="80dip"
+            android:textSize="30sp" 
+            android:background="#FF0000FF"
+            android:text="@string/wifi_search_result" />
+    </LinearLayout> -->
+    <include
+        android:id="@+id/layout_1"
+        layout="@layout/text_notify" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <ScrollView
+        android:layout_below="@+id/layout_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ly2"
+        >
+
+        <TextView
+            android:id="@+id/wifiInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+    
+    	<include 
+    	    android:id="@+id/ly2"
+    	    layout="@layout/buttons"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_alignParentBottom="true"/>
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- L-Sensor -->
+
+    <TextView
+        android:id="@+id/ls_intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/ls_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ls_intro"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/ls_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ls_content" />
+
+    <!-- P-Sensor -->
+
+    <TextView
+        android:id="@+id/ps_intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ls_img"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/ps_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ps_intro"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/ps_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ps_content" />
+
+    <!-- Button -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/lp_sensor_success"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/success"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/lp_sensor_failure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/failure"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</RelativeLayout>

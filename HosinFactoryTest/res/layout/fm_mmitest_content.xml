@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fmcontent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerInParent="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/fmPane"
+        android:layout_width="fill_parent"
+        android:layout_height="80.0dip"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/fmPreButton"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:adjustViewBounds="true"
+            android:src="@drawable/fm_decrease"
+            android:tag="Pre" />
+
+        <ImageButton
+            android:id="@+id/fmNextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:adjustViewBounds="true"
+            android:src="@drawable/fm_increase"
+            android:tag="Next" />
+
+        <SeekBar
+            android:id="@+id/fmProgressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/fmNextButton"
+            android:layout_toRightOf="@id/fmPreButton"
+            android:max="210"
+            android:overScrollMode="always"
+            android:paddingBottom="5.0pt"
+            android:paddingLeft="15.0pt"
+            android:paddingRight="15.0pt"
+            android:paddingTop="5.0pt" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/fmFrequence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fmPane"
+        android:layout_centerHorizontal="true"
+        android:textSize="10.0pt" />
+
+    <Button
+        android:id="@+id/fmReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/fmPane"
+        android:tag="Reset"
+        android:text="@string/reset" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/fmrdsinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fmFrequence"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="5.0pt"
+        android:textSize="10.0pt"
+         />
+
+</RelativeLayout>

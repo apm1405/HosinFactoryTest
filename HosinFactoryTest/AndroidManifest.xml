@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.factorytest"
+    android:versionCode="1"
+    android:versionName="20141106" 
+     >
+	
+    <uses-sdk android:minSdkVersion="10" 
+        android:targetSdkVersion="19"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+	    <uses-permission android:name="android.permission.ACCOUNT_MANAGER" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CONTROL_LOCATION_UPDATES" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS">
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.BLUETOOTH" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CAMERA" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.FLASHLIGHT" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.HARDWARE_TEST" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_GSERVICES" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_OWNER_DATA" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WIRETAPPING" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CALL_PHONE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.DEVICE_POWER" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" >
+    </uses-permission>
+    <application
+        android:allowBackup="false"
+        android:configChanges="locale"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        
+        <activity
+            android:name="com.android.factorytest.MMITestList"
+             android:label="@string/app_name"
+            android:screenOrientation="portrait"
+           />
+        <activity
+            android:name="com.android.factorytest.OpenFactoryTest"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.OpenFactoryTest" />
+        <activity
+            android:name="com.android.factorytest.FactorytestActivity"
+            android:label="@string/mmi_hardware_test"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.factorytest.TestReport"
+            android:label="@string/report_title"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name="com.android.factorytest.VersionInfo"
+            android:label="@string/versioninfo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.factorytest.LCD"
+            android:label="@string/but_test_lcd"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.factorytest.KeyVibrationTest"
+            android:label="@string/but_test_key_vibration"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.factorytest.VibrationTest"
+            android:label="@string/but_test_vibration"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.factorytest.Flashlight"
+            android:label="@string/but_test_flashlight"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.factorytest.TelephoneReceiver"
+            android:label="@string/but_test_receiver"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.factorytest.Test_speaker"
+            android:label="@string/but_test_loudspeaker"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.factorytest.Power"
+            android:label="@string/but_test_power"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.factorytest.Test_tel"
+            android:label="@string/but_test_tel"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.factorytest.TestSubCamera"
+            android:label="@string/but_test_frontcamera"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.factorytest.TestCamera"
+            android:label="@string/but_test_backcamera"
+            android:screenOrientation="portrait" />
+         <activity
+            android:name="com.android.factorytest.TestBackCamera"
+            android:label="@string/but_test_backcamera"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name="com.android.factorytest.TestCameraTest"
+            android:label="@string/but_test_camera"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.factorytest.Memory"
+            android:label="@string/but_test_memory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.factorytest.TestSd"
+            android:label="@string/but_test_sd"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.factorytest.LoopbackMicSpk"
+            android:label="@string/but_test_loopback_micspk"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.factorytest.GPS"
+            android:label="@string/but_test_gps"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.factorytest.Gravity"
+            android:label="@string/but_test_gravity"
+            android:screenOrientation="portrait" />
+         <activity
+            android:name="com.android.factorytest.LAndPSensor"
+            android:label="@string/but_test_lpsensor"
+            android:screenOrientation="portrait" />
+           <activity
+            android:name="com.android.factorytest.TestLightSensor"
+            android:label="@string/but_test_light"
+            android:screenOrientation="portrait" />
+            <activity
+            android:name="com.android.factorytest.TestKey"
+            android:label="@string/but_test_key"
+            android:screenOrientation="portrait" />
+         
+        <activity
+            android:name="com.android.factorytest.TestBluetooth"
+            android:label="@string/but_test_bluetooth"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.factorytest.Earphone"
+            android:label="@string/but_test_earphone"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.factorytest.TestWiFi"
+            android:label="@string/but_test_wifi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.factorytest.Sim"
+            android:label="@string/but_test_sim"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.factorytest.TestBackgroundlight"
+            android:label="@string/test_backgroundlight"
+            android:screenOrientation="portrait" />
+          <activity
+            android:name="com.android.factorytest.TestBackLightValue"
+            android:label="@string/test_backgroundlight"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name="com.android.factorytest.TestRadioAndEarphone"
+            android:label="@string/but_test_radio_earphone"
+            android:screenOrientation="portrait" />
+       <activity
+            android:name="com.android.factorytest.Compass"
+            android:label="@string/compass"
+            android:screenOrientation="portrait" />
+         <activity
+            android:name="com.android.factorytest.HeadsetTest"
+            android:label="@string/headset_test"
+            android:screenOrientation="portrait" />
+        
+        
+        <activity
+            android:name="com.android.factorytest.Tp_test"
+            android:label="@string/but_test_tp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.factorytest.TestLight"
+            android:label="@string/but_test_light"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.factorytest.TestDistance"
+            android:label="@string/but_test_distance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.android.factorytest.TestVideo"
+            android:label="@string/but_test_video"
+            android:screenOrientation="portrait" />
+		
+        <receiver android:name="com.android.factorytest.KeyTestReceiver" >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.factorytest.SecretCodeReceiver" >
+            
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SECRET_CODE" />
+
+                <data
+                    android:host="66"
+                    android:scheme="android_secret_code" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.factorytest.SecretForeignCodeReceiver" >
+            <intent-filter >
+               
+                <action android:name="android.provider.Telephony.SECRET_CODE" />
+
+                <data
+                    android:host="88"
+                    android:scheme="android_secret_code" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="FMRadioService" >
+            <intent-filter>
+                <action android:name="com.andriod.factorytest.FMRadioService" />
+            </intent-filter>
+        </service>
+    </application>
+
+
+
+</manifest>

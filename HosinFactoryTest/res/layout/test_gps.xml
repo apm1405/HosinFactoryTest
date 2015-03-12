@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<include
+	    android:layout_alignParentBottom="true"
+	    android:id="@+id/gps_buttons" 
+	    layout="@layout/buttons"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    />
+	<include 
+	    android:layout_alignParentTop="true"
+	    android:id="@+id/gps_notify"
+	    layout="@layout/text_notify"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"/>
+	<TextView 
+	    android:id="@+id/gps_test_result"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/gps_notify"
+	    android:text="@string/test_result"/>
+	<TextView 
+	    android:id="@+id/gps_test_time"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/gps_test_result"
+	    android:text="@string/time"/>
+    <TextView
+        android:id="@+id/gpsInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gps_test_time"
+      />
+
+    <TextView
+        android:id="@+id/statellite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gpsInfo"
+         />
+
+</RelativeLayout>

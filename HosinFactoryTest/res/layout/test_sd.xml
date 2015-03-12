@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<include
+	    android:id="@+id/sd_notify_layout"
+	    layout="@layout/text_notify"
+	    android:layout_alignParentTop="true" 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    />
+    <TextView
+        android:layout_below="@id/sd_notify_layout"
+        android:id="@+id/sdcard0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_below="@id/sdcard0"
+        android:id="@+id/sdcard1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_below="@id/sdcard1"
+        android:id="@+id/sdcard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+	
+    <include 
+        android:layout_alignParentBottom="true"
+        layout="@layout/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+   <!--  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/sd_ok"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/test_ok" />
+
+        <Button
+            android:id="@+id/sd_false"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/test_false" />
+    </LinearLayout> -->
+
+</RelativeLayout>

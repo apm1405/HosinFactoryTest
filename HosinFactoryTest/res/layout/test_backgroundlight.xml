@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/backlight_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+    
+    	<include
+    	    android:id="@+id/test_bg_notify" 
+    	    layout="@layout/text_notify"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_alignParentTop="true"
+    	    android:visibility="gone"/>
+    	<include 
+    	    android:id="@+id/test_bg_buttons"
+    	    layout="@layout/buttons"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_alignParentBottom="true"
+    	     android:visibility="gone"/>
+   <!--  <TextView
+            android:id="@+id/tv"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="80dip"
+            android:text="@string/button_test_introduction" 
+            android:textSize="30sp" />
+ -->
+    <!-- <LinearLayout
+        android:id="@+id/hide_back"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+        
+        
+
+        <Button
+            android:id="@+id/backlight_success"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/success"
+            android:textSize="20sp" />
+        
+         <Button
+            android:id="@+id/backlight_retest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/retest"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/backlight_failure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/failure"
+            android:textSize="20sp" />
+    </LinearLayout>
+ -->
+</RelativeLayout>

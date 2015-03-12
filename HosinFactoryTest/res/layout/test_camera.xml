@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+	 <include 
+        layout="@layout/text_notify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+	<RelativeLayout 
+	    android:clickable="true"
+	    android:id="@+id/my_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dip"
+	    android:layout_weight="1">
+	 <SurfaceView
+            android:id="@+id/msurfaceview"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+           />
+	 <ImageView 
+	    android:focusable="true"
+	    android:id="@+id/focus_image"
+	    android:layout_width="75dip"
+	    android:layout_height="75dip"
+	   	android:background="@drawable/ic_focus_focusing"
+	   	android:visibility="gone" 
+	 />
+	 </RelativeLayout>
+	 <include 
+	    layout="@layout/buttons"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"/>
+   <!--  <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <SurfaceView
+            android:id="@+id/msurfaceview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/camera_ok"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/test_ok"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/takepicture"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="@string/take_picture"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/camera_false"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="@string/test_false"
+            android:textStyle="bold" />
+    </LinearLayout> -->
+
+</LinearLayout>
